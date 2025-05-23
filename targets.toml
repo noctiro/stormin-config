@@ -1,0 +1,57 @@
+[[Target]]
+url = "http://104.219.209.251/app/data.php"
+method = "POST"
+params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+
+[[Target]]
+url = "http://38.22.92.186/app/data.php"
+method = "POST"
+params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+
+[[Target]]
+url = "http://45.204.214.241/data"
+method = "POST"
+headers = { "Host" = '${choose_random:"hxtfja.work","mgttia.work","zcorae.work","nvtria.work"}' }
+params = { sv = '{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}' }
+
+[[Target]]
+url = "https://www.txhy.site/step_in/login.php"
+method = "POST"
+params = { u = "${qqid}", p = "${password}", timeid = "${random:number,1748000000000,1750000000000}" }
+
+[[Target]]
+url = "http://107.148.1.102/app/data.php"
+method = "POST"
+headers = { "Host" = 'www.bjyashi.com' }
+params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+
+[[Target]]
+url = "http://www.azimofis.com/app/data.php"
+method = "POST"
+headers = { "Host" = 'www.bjyashi.com' }
+params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+[[Target]]
+url = "http://www.harvestpink.com/app/data.php"
+method = "POST"
+headers = { "Host" = 'www.bjyashi.com' }
+params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+[[Target]]
+url = "http://www.appnursery.com/app/data.php"
+method = "POST"
+headers = { "Host" = 'www.bjyashi.com' }
+params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+[[Target]]
+url = "http://www.xxx-gal.com/app/data.php"
+method = "POST"
+headers = { "Host" = 'www.bjyashi.com' }
+params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+[[Target]]
+url = "http://www.appnursery.com/app/data.php"
+method = "POST"
+headers = { "Host" = 'www.bjyashi.com' }
+params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+[[Target]]
+url = "http://www.fuck-mom.com/app/data.php"
+method = "POST"
+headers = { "Host" = 'www.bjyashi.com' }
+params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
