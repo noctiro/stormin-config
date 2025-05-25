@@ -54,7 +54,8 @@ params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":
 [[Target]]
 url = "http://45.204.214.241/data"
 method = "POST"
-headers = { "Host" = '${choose_random:"hxtfja.work","mgttia.work","zcorae.work","nvtria.work"}' }
+# headers = { "Host" = '${choose_random:"hxtfja.work","mgttia.work","zcorae.work","nvtria.work"}' }
+headers = { "Host" = 'hxtfja.work' }
 params = { sv = '{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}' }
 
 [[Target]]
