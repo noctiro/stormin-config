@@ -59,11 +59,6 @@ headers = { "Host" = 'hxtfja.work' }
 params = { sv = '{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}' }
 
 [[Target]]
-url = "https://www.txhy.site/step_in/login.php"
-method = "POST"
-params = { u = "${qqid}", p = "${password}", timeid = "${random:number,1748000000000,1750000000000}" }
-
-[[Target]]
 url = "http://107.148.1.102/app/data.php"
 method = "POST"
 headers = { "Host" = 'www.bjyashi.com' }
