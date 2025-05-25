@@ -43,6 +43,7 @@ params = { card_pwd = "${random:number,100000,999999}" }
 [[Target]]
 url = "http://104.219.209.251/app/data.php"
 method = "POST"
+headers = { "Host" = 'www.ace-aust.com' }
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
 [[Target]]
