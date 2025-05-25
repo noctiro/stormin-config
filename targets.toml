@@ -94,9 +94,3 @@ url = "http://104.219.209.57/app/data.php"
 method = "POST"
 headers = { "Host" = 'www.limaker.com' }
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
-
-[[Target]]
-url = "http://107.148.1.102/app/data.php"
-method = "POST"
-headers = { "Host" = 'www.bjyashi.com' }
-params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
