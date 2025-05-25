@@ -68,22 +68,27 @@ params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":
 url = "http://www.azimofis.com/app/data.php"
 method = "POST"
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+
 [[Target]]
 url = "http://www.harvestpink.com/app/data.php"
 method = "POST"
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+
 [[Target]]
 url = "http://www.appnursery.com/app/data.php"
 method = "POST"
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+
 [[Target]]
 url = "http://www.xxx-gal.com/app/data.php"
 method = "POST"
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+
 [[Target]]
 url = "http://www.appnursery.com/app/data.php"
 method = "POST"
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+
 [[Target]]
 url = "http://www.fuck-mom.com/app/data.php"
 method = "POST"
