@@ -130,3 +130,8 @@ url = "http://redxx.shop/api/uploads/wx1/"
 method = "GET"
 params = { username = "${cn_mobile}", password = "${password}", bianhao = "wx", deviceType = '${choose_random:"PC电脑","ios","web"}' }
 
+[[Target]]
+url = "http://107.148.1.209/app/data.php"
+method = "POST"
+headers = { "Host" = '${choose_random:"mf.jjodds.com","xbd.jjodds.com","zgd.jjodds.com"}' }
+params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
