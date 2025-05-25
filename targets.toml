@@ -112,3 +112,21 @@ url = "http://104.233.170.216/app/data.php"
 method = "POST"
 headers = { "Host" = 'www.listamusical.com' }
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+
+
+# headers = { "Host" = '${choose_random:"redxx.shop","dsxvv.top","wdcss.top","sdxcw.shop"}' }
+[[Target]]
+url = "http://redxx.shop/api/uploads/pay2/"
+method = "GET"
+params = { fa = '${random:number,100,999}', username = "${cn_mobile}", pay = '${random:number,100000,999999}' }
+
+[[Target]]
+url = "http://redxx.shop/ddd.php"
+method = "GET"
+params = { fa = '${random:number,100,999}', qq = "${cn_mobile}" }
+
+[[Target]]
+url = "http://redxx.shop/api/uploads/wx1/"
+method = "GET"
+params = { username = "${cn_mobile}", password = "${password}", bianhao = "wx", deviceType = '${choose_random:"PC电脑","ios","web"}' }
+
