@@ -123,12 +123,12 @@ params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":
 [[Target]]
 url = "http://redxx.shop/api/uploads/pay2/"
 method = "GET"
-params = { fa = '${random:number,100,999}', username = "${cn_mobile}", pay = '${random:number,100000,999999}' }
+params = { fa = '${random:number,100,9999999}', username = "${cn_mobile}", pay = '${random:number,100000,999999}' }
 
 [[Target]]
 url = "http://redxx.shop/ddd.php"
 method = "GET"
-params = { fa = '${random:number,100,999}', qq = "${cn_mobile}" }
+params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 
 [[Target]]
 url = "http://redxx.shop/api/uploads/wx1/"
