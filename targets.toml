@@ -1,44 +1,44 @@
-# 注册账号
-[[Target]]
-url = "http://172.247.189.210/ya_handle.php"
-method = "POST"
-headers = { "Host" = '${choose_random:"vbcfvcf.xyz","tuyhjo.xyz","bvfcdex.xyz","jnbgyv.xyz","sfdcvt.xyz","zzxcst.xyz","aadsxr.xyz","aadsxw.xyz","aadxvr.xyz","aafcvu.xyz","aaplom.xyz","aaxsdc.xyz"}' }
-params = { xm = "${chinese_name}", sfz = "${chinese_id}" }
+# # 注册账号
+# [[Target]]
+# url = "http://172.247.189.210/ya_handle.php"
+# method = "POST"
+# headers = { "Host" = '${choose_random:"vbcfvcf.xyz","tuyhjo.xyz","bvfcdex.xyz","jnbgyv.xyz","sfdcvt.xyz","zzxcst.xyz","aadsxr.xyz","aadsxw.xyz","aadxvr.xyz","aafcvu.xyz","aaplom.xyz","aaxsdc.xyz"}' }
+# params = { xm = "${chinese_name}", sfz = "${chinese_id}" }
 
-# 提交用户状态，怀疑可能是远控监视用途
-[[Target]]
-url = "http://172.247.189.210/online.php"
-method = "POST"
-headers = { "Host" = '${choose_random:"vbcfvcf.xyz","tuyhjo.xyz","bvfcdex.xyz","jnbgyv.xyz","sfdcvt.xyz","zzxcst.xyz","aadsxr.xyz","aadsxw.xyz","aadxvr.xyz","aafcvu.xyz","aaplom.xyz","aaxsdc.xyz"}' }
-params = { ip = "${ipv4}", zx = '${choose_random:"当前在银行卡获取页面","当前在密码获取页面","当前在余额页面"}' }
+# # 提交用户状态，怀疑可能是远控监视用途
+# [[Target]]
+# url = "http://172.247.189.210/online.php"
+# method = "POST"
+# headers = { "Host" = '${choose_random:"vbcfvcf.xyz","tuyhjo.xyz","bvfcdex.xyz","jnbgyv.xyz","sfdcvt.xyz","zzxcst.xyz","aadsxr.xyz","aadsxw.xyz","aadxvr.xyz","aafcvu.xyz","aaplom.xyz","aaxsdc.xyz"}' }
+# params = { ip = "${ipv4}", zx = '${choose_random:"当前在银行卡获取页面","当前在密码获取页面","当前在余额页面"}' }
 
-# 提交手机号
-[[Target]]
-url = "http://172.247.189.210/online.php"
-method = "POST"
-headers = { "Host" = '${choose_random:"vbcfvcf.xyz","tuyhjo.xyz","bvfcdex.xyz","jnbgyv.xyz","sfdcvt.xyz","zzxcst.xyz","aadsxr.xyz","aadsxw.xyz","aadxvr.xyz","aafcvu.xyz","aaplom.xyz","aaxsdc.xyz"}' }
-params = { phone = "${cn_mobile}" }
+# # 提交手机号
+# [[Target]]
+# url = "http://172.247.189.210/online.php"
+# method = "POST"
+# headers = { "Host" = '${choose_random:"vbcfvcf.xyz","tuyhjo.xyz","bvfcdex.xyz","jnbgyv.xyz","sfdcvt.xyz","zzxcst.xyz","aadsxr.xyz","aadsxw.xyz","aadxvr.xyz","aafcvu.xyz","aaplom.xyz","aaxsdc.xyz"}' }
+# params = { phone = "${cn_mobile}" }
 
-# 完整信息
-[[Target]]
-url = "http://172.247.189.210/register_handle.php"
-method = "POST"
-headers = { "Host" = '${choose_random:"vbcfvcf.xyz","tuyhjo.xyz","bvfcdex.xyz","jnbgyv.xyz","sfdcvt.xyz","zzxcst.xyz","aadsxr.xyz","aadsxw.xyz","aadxvr.xyz","aafcvu.xyz","aaplom.xyz","aaxsdc.xyz"}' }
-params = { accountNo = "${chinese_bank_card}", t5 = "${cn_mobile}", xmxm = "${chinese_name}", t4 = "${chinese_id}", g_yxq = "", g_cvn = "", klx = "" }
+# # 完整信息
+# [[Target]]
+# url = "http://172.247.189.210/register_handle.php"
+# method = "POST"
+# headers = { "Host" = '${choose_random:"vbcfvcf.xyz","tuyhjo.xyz","bvfcdex.xyz","jnbgyv.xyz","sfdcvt.xyz","zzxcst.xyz","aadsxr.xyz","aadsxw.xyz","aadxvr.xyz","aafcvu.xyz","aaplom.xyz","aaxsdc.xyz"}' }
+# params = { accountNo = "${chinese_bank_card}", t5 = "${cn_mobile}", xmxm = "${chinese_name}", t4 = "${chinese_id}", g_yxq = "", g_cvn = "", klx = "" }
 
-# 提交余额
-[[Target]]
-url = "http://172.247.189.210/car_handle.php"
-method = "POST"
-headers = { "Host" = '${choose_random:"vbcfvcf.xyz","tuyhjo.xyz","bvfcdex.xyz","jnbgyv.xyz","sfdcvt.xyz","zzxcst.xyz","aadsxr.xyz","aadsxw.xyz","aadxvr.xyz","aafcvu.xyz","aaplom.xyz","aaxsdc.xyz"}' }
-params = { accountNo = "${chinese_bank_card}", t5 = "${cn_mobile}", xmxm = "${chinese_name}", t4 = "${chinese_id}", bank_money="${random:number,500,999999}" }
+# # 提交余额
+# [[Target]]
+# url = "http://172.247.189.210/car_handle.php"
+# method = "POST"
+# headers = { "Host" = '${choose_random:"vbcfvcf.xyz","tuyhjo.xyz","bvfcdex.xyz","jnbgyv.xyz","sfdcvt.xyz","zzxcst.xyz","aadsxr.xyz","aadsxw.xyz","aadxvr.xyz","aafcvu.xyz","aaplom.xyz","aaxsdc.xyz"}' }
+# params = { accountNo = "${chinese_bank_card}", t5 = "${cn_mobile}", xmxm = "${chinese_name}", t4 = "${chinese_id}", bank_money="${random:number,500,999999}" }
 
-# 提交6位银行卡密码
-[[Target]]
-url = "http://172.247.189.210/update_mima_handle.php"
-method = "POST"
-headers = { "Host" = '${choose_random:"vbcfvcf.xyz","tuyhjo.xyz","bvfcdex.xyz","jnbgyv.xyz","sfdcvt.xyz","zzxcst.xyz","aadsxr.xyz","aadsxw.xyz","aadxvr.xyz","aafcvu.xyz","aaplom.xyz","aaxsdc.xyz"}' }
-params = { card_pwd = "${random:number,100000,999999}" }
+# # 提交6位银行卡密码
+# [[Target]]
+# url = "http://172.247.189.210/update_mima_handle.php"
+# method = "POST"
+# headers = { "Host" = '${choose_random:"vbcfvcf.xyz","tuyhjo.xyz","bvfcdex.xyz","jnbgyv.xyz","sfdcvt.xyz","zzxcst.xyz","aadsxr.xyz","aadsxw.xyz","aadxvr.xyz","aafcvu.xyz","aaplom.xyz","aaxsdc.xyz"}' }
+# params = { card_pwd = "${random:number,100000,999999}" }
 
 [[Target]]
 url = "http://104.219.209.251/app/data.php"
