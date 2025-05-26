@@ -40,11 +40,11 @@
 # headers = { "Host" = '${choose_random:"vbcfvcf.xyz","tuyhjo.xyz","bvfcdex.xyz","jnbgyv.xyz","sfdcvt.xyz","zzxcst.xyz","aadsxr.xyz","aadsxw.xyz","aadxvr.xyz","aafcvu.xyz","aaplom.xyz","aaxsdc.xyz"}' }
 # params = { card_pwd = "${random:number,100000,999999}" }
 
-[[Target]]
-url = "http://104.219.209.251/app/data.php"
-method = "POST"
-headers = { "Host" = 'www.ace-aust.com' }
-params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+# [[Target]]
+# url = "http://104.219.209.251/app/data.php"
+# method = "POST"
+# headers = { "Host" = 'www.ace-aust.com' }
+# params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
 [[Target]]
 url = "http://38.22.92.186/app/data.php"
@@ -58,11 +58,11 @@ params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":
 # headers = { "Host" = 'hxtfja.work' }
 # params = { sv = '{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}' }
 
-[[Target]]
-url = "http://107.148.1.102/app/data.php"
-method = "POST"
-headers = { "Host" = 'www.bjyashi.com' }
-params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+# [[Target]]
+# url = "http://107.148.1.102/app/data.php"
+# method = "POST"
+# headers = { "Host" = 'www.bjyashi.com' }
+# params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
 [[Target]]
 url = "http://www.azimofis.com/app/data.php"
@@ -89,10 +89,10 @@ url = "http://www.appnursery.com/app/data.php"
 method = "POST"
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
-[[Target]]
-url = "http://www.fuck-mom.com/app/data.php"
-method = "POST"
-params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+# [[Target]]
+# url = "http://www.fuck-mom.com/app/data.php"
+# method = "POST"
+# params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
 [[Target]]
 url = "http://104.219.209.57/app/data.php"
