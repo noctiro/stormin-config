@@ -121,12 +121,12 @@ params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":
 
 # headers = { "Host" = '${choose_random:"redxx.shop","dsxvv.top","wdcss.top","sdxcw.shop"}' }
 [[Target]]
-url = "http://redxx.shop/api/uploads/pay2/"
+url = "http://dsxvv.top/api/uploads/pay2/"
 method = "GET"
 params = { fa = '${random:number,100,9999999}', username = "${cn_mobile}", pay = '${random:number,100000,999999}' }
 
 [[Target]]
-url = "http://redxx.shop/ddd.php"
+url = "http://dsxvv.top/ddd.php"
 method = "GET"
 params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 
@@ -136,12 +136,12 @@ params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 # params = { username = "${cn_mobile}", password = "${password}", ym = "${chinese_id}", bianhao = "wx", deviceType = '${choose_random:"PC电脑","ios","web"}' }
 
 [[Target]]
-url = "http://redxx.shop/wx2/index.php"
+url = "http://dsxvv.top/wx2/index.php"
 method = "GET"
 params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 
 [[Target]]
-url = "http://redxx.shop/cw.php"
+url = "http://dsxvv.top/cw.php"
 method = "GET"
 params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 
