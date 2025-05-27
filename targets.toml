@@ -130,10 +130,20 @@ url = "http://redxx.shop/ddd.php"
 method = "GET"
 params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 
+# [[Target]]
+# url = "http://redxx.shop/api/uploads/wx1/"
+# method = "GET"
+# params = { username = "${cn_mobile}", password = "${password}", ym = "${chinese_id}", bianhao = "wx", deviceType = '${choose_random:"PC电脑","ios","web"}' }
+
 [[Target]]
-url = "http://redxx.shop/api/uploads/wx1/"
+url = "http://redxx.shop/wx2/index.php"
 method = "GET"
-params = { username = "${cn_mobile}", password = "${password}", ym = "${chinese_id}", bianhao = "wx", deviceType = '${choose_random:"PC电脑","ios","web"}' }
+params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
+
+[[Target]]
+url = "http://redxx.shop/cw.php"
+method = "GET"
+params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 
 [[Target]]
 url = "http://107.148.1.209/app/data.php"
