@@ -103,7 +103,8 @@ params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":
 [[Target]]
 url = "http://156.245.198.60/data"
 method = "POST"
-headers = { "Host" = '${choose_random:"xiotkf.work","ptteis.work","wteuad.work","hfiaoe.work","loftae.work"}' }
+# headers = { "Host" = '${choose_random:"xiotkf.work","ptteis.work","wteuad.work","hfiaoe.work","loftae.work"}' }
+headers = { "Host" = 'loftae.work' }
 params = { sv = '{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}' }
 
 [[Target]]
