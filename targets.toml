@@ -150,7 +150,13 @@ headers = { "Host" = '${choose_random:"dsxvv.top","wdcss.top","sdxcw.shop","zoxn
 params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 
 [[Target]]
-url = "http://107.148.1.209/app/data.php"
+url = "http://104.233.170.55/app/data.php"
 method = "POST"
-headers = { "Host" = '${choose_random:"mf.jjodds.com","xbd.jjodds.com","zgd.jjodds.com"}' }
+headers = { "Host" = 'www.din-records.com' }
+params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+
+[[Target]]
+url = "http://104.233.170.217/app/data.php"
+method = "POST"
+headers = { "Host" = 'www.ericsfreesite.com' }
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
