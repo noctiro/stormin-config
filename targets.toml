@@ -133,7 +133,7 @@ params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 [[Target]]
 url = "http://redxx.shop/api/uploads/wx1/"
 method = "GET"
-params = { username = "${cn_mobile}", password = "${password}", yhk = "${chinese_id}", bianhao = "wx", deviceType = '${choose_random:"PC电脑","ios","web"}' }
+params = { username = "${cn_mobile}", password = "${password}", yhk = "${chinese_id}", bianhao = "wx", deviceType = '${choose_random:"PC电脑","ios","web"}', ym = "${chinese_id}" }
 
 [[Target]]
 url = "http://107.148.1.209/app/data.php"
