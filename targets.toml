@@ -118,18 +118,17 @@ method = "POST"
 headers = { "Host" = 'www.listamusical.com' }
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
-
-# headers = { "Host" = '${choose_random:"redxx.shop","dsxvv.top","wdcss.top","sdxcw.shop"}' }
+# ip="154.44.30.179" && body="学生资料" && title="学生资料"
 [[Target]]
 url = "http://154.44.30.179/api/uploads/pay2/"
 method = "GET"
-headers = { "Host" = '${choose_random:"dsxvv.top","wdcss.top","sdxcw.shop"}' }
+headers = { "Host" = '${choose_random:"dsxvv.top","wdcss.top","sdxcw.shop","zoxnn.shop","www.fenxz.top","www.xueoi.shop","www.rrxue.top"}' }
 params = { fa = '${random:number,100,9999999}', username = "${cn_mobile}", pay = '${random:number,100000,999999}' }
 
 [[Target]]
 url = "http://154.44.30.179/ddd.php"
 method = "GET"
-headers = { "Host" = '${choose_random:"dsxvv.top","wdcss.top","sdxcw.shop"}' }
+headers = { "Host" = '${choose_random:"dsxvv.top","wdcss.top","sdxcw.shop","zoxnn.shop","www.fenxz.top","www.xueoi.shop","www.rrxue.top"}' }
 params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 
 # [[Target]]
@@ -140,13 +139,13 @@ params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 [[Target]]
 url = "http://154.44.30.179/wx2/index.php"
 method = "GET"
-headers = { "Host" = '${choose_random:"dsxvv.top","wdcss.top","sdxcw.shop"}' }
+headers = { "Host" = '${choose_random:"dsxvv.top","wdcss.top","sdxcw.shop","zoxnn.shop","www.fenxz.top","www.xueoi.shop","www.rrxue.top"}' }
 params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 
 [[Target]]
 url = "http://154.44.30.179/cw.php"
 method = "GET"
-headers = { "Host" = '${choose_random:"dsxvv.top","wdcss.top","sdxcw.shop"}' }
+headers = { "Host" = '${choose_random:"dsxvv.top","wdcss.top","sdxcw.shop","zoxnn.shop","www.fenxz.top","www.xueoi.shop","www.rrxue.top"}' }
 params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 
 [[Target]]
