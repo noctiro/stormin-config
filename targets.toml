@@ -98,15 +98,15 @@ params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":
 [[Target]]
 url = "http://156.245.198.60/data"
 method = "POST"
-# headers = { "Host" = '${choose_random:"xiotkf.work","ptteis.work","wteuad.work","hfiaoe.work","loftae.work"}' }
+headers = { "Host" = '${choose_random:"hfiaoe.work","xkcief.work","wteuad.work"}' }
 headers = { "Host" = 'hfiaoe.work' }
 params = { sv = '{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}' }
 
-[[Target]]
-url = "http://38.22.92.186/app/data.php"
-method = "POST"
-headers = { "Host" = 'www.bcdlldb.com' }
-params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+# [[Target]]
+# url = "http://38.22.92.186/app/data.php"
+# method = "POST"
+# headers = { "Host" = 'www.bcdlldb.com' }
+# params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
 # [[Target]]
 # url = "http://104.233.170.216/app/data.php"
@@ -144,11 +144,11 @@ method = "GET"
 headers = { "Host" = '${choose_random:"dsxvv.top","wdcss.top","sdxcw.shop","zoxnn.shop","www.fenxz.top","www.xueoi.shop","www.rrxue.top"}' }
 params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 
-[[Target]]
-url = "http://104.233.170.55/app/data.php"
-method = "POST"
-headers = { "Host" = 'www.din-records.com' }
-params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+# [[Target]]
+# url = "http://104.233.170.55/app/data.php"
+# method = "POST"
+# headers = { "Host" = 'www.din-records.com' }
+# params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
 # [[Target]]
 # url = "http://104.233.170.217/app/data.php"
