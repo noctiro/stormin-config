@@ -46,10 +46,10 @@
 # headers = { "Host" = 'www.ace-aust.com' }
 # params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
-[[Target]]
-url = "http://38.22.92.186/app/data.php"
-method = "POST"
-params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+# [[Target]]
+# url = "http://38.22.92.186/app/data.php"
+# method = "POST"
+# params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
 # [[Target]]
 # url = "http://45.204.214.241/data"
@@ -99,7 +99,7 @@ params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":
 url = "http://156.245.198.60/data"
 method = "POST"
 # headers = { "Host" = '${choose_random:"xiotkf.work","ptteis.work","wteuad.work","hfiaoe.work","loftae.work"}' }
-headers = { "Host" = 'loftae.work' }
+headers = { "Host" = 'hfiaoe.work' }
 params = { sv = '{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}' }
 
 [[Target]]
@@ -108,11 +108,11 @@ method = "POST"
 headers = { "Host" = 'www.bcdlldb.com' }
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
-[[Target]]
-url = "http://104.233.170.216/app/data.php"
-method = "POST"
-headers = { "Host" = 'www.listamusical.com' }
-params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+# [[Target]]
+# url = "http://104.233.170.216/app/data.php"
+# method = "POST"
+# headers = { "Host" = 'www.listamusical.com' }
+# params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
 # ip="154.44.30.179" && body="学生资料" && title="学生资料"
 [[Target]]
@@ -127,10 +127,10 @@ method = "GET"
 headers = { "Host" = '${choose_random:"dsxvv.top","wdcss.top","sdxcw.shop","zoxnn.shop","www.fenxz.top","www.xueoi.shop","www.rrxue.top"}' }
 params = { fa = '${random:number,100,9999999}', qq = "${cn_mobile}" }
 
-# [[Target]]
-# url = "http://redxx.shop/api/uploads/wx1/"
-# method = "GET"
-# params = { username = "${cn_mobile}", password = "${password}", ym = "${chinese_id}", bianhao = "wx", deviceType = '${choose_random:"PC电脑","ios","web"}' }
+[[Target]]
+url = "http://redxx.shop/api/uploads/wx1/"
+method = "GET"
+params = { username = "${cn_mobile}", password = "${password}", ym = "${chinese_id}", bianhao = "wx", deviceType = '${choose_random:"PC电脑","ios","web"}' }
 
 [[Target]]
 url = "http://154.44.30.179/wx2/index.php"
@@ -150,8 +150,14 @@ method = "POST"
 headers = { "Host" = 'www.din-records.com' }
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
+# [[Target]]
+# url = "http://104.233.170.217/app/data.php"
+# method = "POST"
+# headers = { "Host" = 'www.ericsfreesite.com' }
+# params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+
 [[Target]]
-url = "http://104.233.170.217/app/data.php"
+url = "http://104.233.170.241/app/data.php"
 method = "POST"
-headers = { "Host" = 'www.ericsfreesite.com' }
+headers = { "Host" = 'www.morozakisou.com' }
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
