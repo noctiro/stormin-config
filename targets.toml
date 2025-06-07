@@ -53,12 +53,12 @@ params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":
 # headers = { "Host" = 'www.limaker.com' }
 # params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
-# [[Target]]
-# url = "http://156.245.198.60/data"
-# method = "POST"
-# # headers = { "Host" = '${choose_random:"hfiaoe.work","xkcief.work","wteuad.work"}' }
-# headers = { "Host" = 'wteuad.work' }
-# params = { sv = '{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}' }
+[[Target]]
+url = "http://156.245.198.60/data"
+method = "POST"
+# headers = { "Host" = '${choose_random:"hfiaoe.work","xkcief.work","wteuad.work","xpaera.work","xnghai.work"}' }
+headers = { "Host" = 'wteuad.work' }
+params = { sv = '{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}' }
 
 # [[Target]]
 # url = "http://38.22.92.186/app/data.php"
