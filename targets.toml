@@ -106,11 +106,11 @@ params = { sv = '{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}' }
 # headers = { "Host" = 'www.din-records.com' }
 # params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
-# [[Target]]
-# url = "http://104.233.170.217/app/data.php"
-# method = "POST"
-# headers = { "Host" = 'www.ericsfreesite.com' }
-# params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+[[Target]]
+url = "http://104.233.170.217/app/data.php"
+method = "POST"
+headers = { "Host" = 'www.ericsfreesite.com' }
+params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
 # [[Target]]
 # url = "http://104.233.170.241/app/data.php"
