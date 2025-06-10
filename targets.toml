@@ -23,23 +23,27 @@
 # params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
 [[Target]]
-url = "http://www.azimofis.com/app/data.php"
+url = "http://107.148.0.37/app/data.php"
 method = "POST"
+headers = { "Host" = 'www.azimofis.com' }
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
 [[Target]]
-url = "http://www.harvestpink.com/app/data.php"
+url = "http://107.148.1.5/app/data.php"
 method = "POST"
+headers = { "Host" = 'www.harvestpink.com' }
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
 [[Target]]
-url = "http://www.talkinator.com/app/data.php"
+url = "http://107.148.0.60/app/data.php"
 method = "POST"
+headers = { "Host" = '${choose_random:"www.talkinator.com","www.ahmedelkady.com"}' }
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
 [[Target]]
-url = "http://www.appnursery.com/app/data.php"
+url = "http://107.148.0.37/app/data.php"
 method = "POST"
+headers = { "Host" = 'www.appnursery.com' }
 params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
 
 # [[Target]]
