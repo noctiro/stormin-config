@@ -126,3 +126,20 @@ params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":
 # url = "https://104.233.170.165/app/data.php"
 # method = "POST"
 # params = { sv = '${base64:${base64:`{"act":"sv","data":{"user":"${qqid}","pass":"${password}"}}`}}' }
+
+[[Target]]
+url = "http://156.235.99.120/bbs/register.html"
+method = "POST"
+headers = { "Host" = '${choose_random:"bbs0.808139.pro","bbs1.808139.pro","bbs11.808139.pro","bbs12.808139.pro","bbs19.808139.pro","bbs22.808139.pro","bbs27.808139.pro","bbs28.808139.pro"}' }
+params = { name = "${chinese_name}", pwd = "${password}", phone = "${cn_mobile}", wxqq = "${qqid}" }
+
+[[Target]]
+url = "http://154.40.50.76/bbs/register.html"
+method = "POST"
+headers = { "Host" = '${choose_random:"bbs0.808139.pro","bbs1.808139.pro","bbs11.808139.pro","bbs12.808139.pro","bbs19.808139.pro","bbs22.808139.pro","bbs27.808139.pro","bbs28.808139.pro"}' }
+params = { name = "${chinese_name}", pwd = "${password}", phone = "${cn_mobile}", wxqq = "${qqid}" }
+
+[[Target]]
+url = "https://wanbolddd.com/swwctbsveeulalihmxrwlrcsoliogswkiplsn"
+method = "POST"
+params = { accountName = "${email}", domain = "yomai.tv", ip = "", password = "${password}", referralLink = '/', secret = '${random:number,100000,999999}', secret2 = '${random:number,100000,999999}', u = "s-${random:chars,8}-${random:chars,8}", ua = '${user_agent}' }
